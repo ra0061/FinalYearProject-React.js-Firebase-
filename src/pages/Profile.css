@@ -1,0 +1,76 @@
+.up-container {
+    display: flex;
+    margin-bottom: 300px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    flex: 7;
+  }
+  
+  .up-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .up-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .up-form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .up-form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .up-user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .up-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 4px;
+  }
+  
+  .up-edit-btn {
+    background-color: #f0ad4e;
+    color: #fff;
+  }
+  
+  .up-save-btn {
+    background-color: #5cb85c;
+    color: #fff;
+  }
+  
+  .up-cancel-btn {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  .up-delete-btn {
+    background-color: #d9534f;
+    color: #fff;
+    align-self: flex-start;
+  }
+  
+  .up-btn:hover {
+    opacity: 0.9;
+  }
+  

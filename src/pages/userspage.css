@@ -1,0 +1,79 @@
+.userspage {
+flex: 7;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+    border-radius: 10px;
+  }
+  
+  .userspage h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .user-card {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .user-card p {
+    margin: 0 0 10px;
+    color: #555;
+  }
+  
+  .user-card p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .user-card .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .user-card .actions button,
+  .user-card .actions a {
+    background-color: #007bff;
+
+
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .user-card .actions button:hover,
+  .user-card .actions a:hover {
+    background-color: #0056b3;
+
+  }
+  
+  .hr1 {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  .user-card .actions {
+    display: flex;
+    justify-content: center; 
+    margin-top: 15px;
+  }
+  
+  .user-card .actions button,
+  .user-card .actions a {
+
+    margin: 0 5px; 
+  }
+  
+  

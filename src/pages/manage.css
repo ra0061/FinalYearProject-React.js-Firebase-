@@ -1,0 +1,25 @@
+.manage-container1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   gap: 10px;
+   flex: 7;
+ }
+ 
+ .custom-link1 {
+   display: inline-block;
+   padding: 10px 20px;
+   font-size: 16px;
+   text-decoration: none;
+   color: #ffffff;
+   background-color: #007bff;
+   border-radius: 4px;
+   transition: background-color 0.3s;
+ }
+ 
+ .custom-link1:hover {
+   background-color: #0056b3;
+ }
+ 

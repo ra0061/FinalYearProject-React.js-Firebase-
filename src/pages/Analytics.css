@@ -1,0 +1,36 @@
+.memberStatistics{flex: 6;
+  display: flex;
+margin-bottom: 300px;
+justify-content: center;
+align-items: center;
+
+width: 100%;
+flex-direction: column;
+
+flex: 7;
+}
+
+
+.analytics {
+  display: flex;
+  margin-bottom: 300px;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+  flex-direction: column;
+  
+  flex: 6;
+  }
+  
+  .analytics__chart {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .analytics__text {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+ 

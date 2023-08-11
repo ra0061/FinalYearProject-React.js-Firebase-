@@ -1,0 +1,85 @@
+.update-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    flex: 7
+  }
+  
+  .update-profile-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .update-profile-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .update-profile-form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 90%;
+  }
+  
+  .update-profile-label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .update-profile-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .update-profile-submit {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .update-profile-submit:hover {
+    background-color: #0069d9;
+  }
+  
+  .update-profile-error {
+    margin-bottom: 1rem;
+    color: #dc3545;
+    font-weight: bold;
+  }
+  
+  .update-profile-cancel {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .update-profile-cancel a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .update-profile-cancel a:hover {
+    text-decoration: underline;
+  }
+  

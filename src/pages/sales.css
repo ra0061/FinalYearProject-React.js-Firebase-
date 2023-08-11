@@ -1,0 +1,88 @@
+
+  .hmm {
+
+    margin: 0 auto;
+    padding: 1rem;
+    flex: 7;
+  }
+  
+  .h1ll,
+  .h2ll {
+    margin-bottom: 1rem;
+  }
+  
+  .formll {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .labelll {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .selectll,
+  .inputll {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .buttonll {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonll:hover {
+    background-color: #0056b3;
+  }
+  
+  .tablell {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+  }
+  
+  .thll,
+  .tdll {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .thll {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .trll:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  .delete-btn {
+    color: #f44336;
+    background-color: transparent;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    transition: all 0.3s;
+  }
+  
+  .delete-btn:hover {
+    background-color: #f44336;
+    color: #fff;
+  }
+  .tablell tbody tr:hover {
+    background-color: #ddd;
+  }

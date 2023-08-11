@@ -1,0 +1,98 @@
+.feedback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    flex: 7;
+  }
+  
+  .feedback-label {
+    margin: 8px 0;
+  }
+  
+  .feedback-select,
+  .feedback-input {
+    display: block;
+    margin: 4px 0;
+    padding: 4px 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px 0;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    width: 100%;
+
+  }
+  
+  .feedback-submit {
+    margin: 16px 0;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .feedback-submit:hover {
+    background-color: #45a049;
+  }
+  
+  .feedback-table {
+    border-collapse: collapse;
+
+    max-width: 90%;
+  }
+  
+  .feedback-table th,
+  .feedback-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .feedback-table th {
+
+    font-weight: bold;
+  }
+  
+  .feedback-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .feedback-delete {
+    padding: 4px 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .feedback-delete:hover {
+    background-color: #d32f2f;
+  }
+  
+  .feedback-textarea {
+    display: block;
+    margin: 4px 0;
+    padding: 4px 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+    height: 100px;
+    resize: vertical;
+  }
+  
